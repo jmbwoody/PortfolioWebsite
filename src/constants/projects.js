@@ -61,7 +61,7 @@ export default [
     id: "project-02",
     imageName: project02_image0,
     mainHeader: "Data Source",
-    description: `Front-End Developer  - UI/UX Application Developer 
+    description: `Front-End Developer - UI/UX Application Developer 
     Created a new client UI for websites based on photoshop templates. \n
     Maintain over 50 websites in a CMS (MarcomCentral) by updating outdated UI with CSS3, HTML5, jQuery, and Javascript. Bridge the gap between the CMS and the .Net environment by creating Iframes for custom content. \n
     Use of an internally built engine (Brand Manager) to create complex form driven HTML5/CSS3 applications with the ability to display and validate accurate data transmission to the server with the use of Javascript and Jquery. \n

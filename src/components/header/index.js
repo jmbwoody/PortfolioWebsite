@@ -28,6 +28,11 @@ const Header = () => {
             <h2>Full Stack Web Engineer</h2>
 
             <div className="social-media">
+            <a onClick={() => openLinkInNewWindow(urls.resume)}>
+                <span>
+                  <i className="ti-write"></i>
+                </span>
+              </a>
             <a onClick={() => openLinkInNewWindow(urls.linkedin)}>
                 <span>
                   <i className="ti-linkedin"></i>
@@ -38,11 +43,7 @@ const Header = () => {
                   <i className="ti-github"></i>
                 </span>
               </a>
-              <a onClick={() => openLinkInNewWindow(urls.resume)}>
-                <span>
-                  <i className="ti-write"></i>
-                </span>
-              </a>
+              
               <a onClick={() => openLinkInNewWindow(urls.facebook)}>
                 <span>
                   <i className="ti-facebook"></i>

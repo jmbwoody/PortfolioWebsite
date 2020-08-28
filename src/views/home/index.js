@@ -5,6 +5,9 @@ import Carousel from "../../components/carousel";
 import WorkCategories from "../../components/workCategories";
 import Navbar from "../../components/navbar";
 import Portfolio from "../../components/portfolio";
+import Resume from "../../components/resume";
+
+
 
 class Home extends Component {
   componentDidMount() {
@@ -25,6 +28,8 @@ class Home extends Component {
         <WorkCategories />
 
         <Portfolio />
+
+        <Resume />
       </div>
     );
   }
