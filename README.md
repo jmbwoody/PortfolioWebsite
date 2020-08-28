@@ -1,5 +1,5 @@
 This is a software engineer's portfolio web site
-Created by Ali Afsahnoudeh
+Created by Brian Woodward
 With [Create React App], React.js, React-Router and
 Bootstrap ,JQuery, polyfill, scrollIt, waypoints, wow
 You can see the demo on http://aliafsah.com/
