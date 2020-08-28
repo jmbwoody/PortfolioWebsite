@@ -2,8 +2,7 @@ This is a software engineer's portfolio web site
 Created by Brian Woodward
 With [Create React App], React.js, React-Router and
 Bootstrap ,JQuery, polyfill, scrollIt, waypoints, wow
-You can see the demo on http://aliafsah.com/
-Please use it for any purpose freely!
+You can see the portfolio hosted on pages here http://jmbwoody.github.io/PortfolioWebsite
 
 ## Available Scripts
 In the project directory, you can run:
