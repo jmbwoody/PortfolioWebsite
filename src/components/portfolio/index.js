@@ -21,6 +21,7 @@ const Portfolio = () => {
         <ProjectsGallery />
         <div className="container">
         <div className="section-head wow zoomIn" data-wow-offset="200">
+          <br/>
           <h3>Resume</h3>
           <div className="row">
             <div className="col-lg-6 col-md-8 mx-auto">

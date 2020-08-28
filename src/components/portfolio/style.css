@@ -112,3 +112,11 @@
 .section-padding {
 	padding-bottom: 20px !important;
 }
+
+section#about {
+    padding-top: 20px;
+}
+
+section#workCategories {
+    padding-top: 70px;
+}
