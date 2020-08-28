@@ -42,7 +42,8 @@ const Navbar = (props) => {
           type="button"
         >
           <span className="menu-icon" onClick={toggleNavbarInMobile} style={ fullMenu? null : {color: '#212121'} }>
-            <i className="fas fa-bars"></i>
+            <i className="fas fa-bars"></i>&nbsp;
+            Brian Woodward
           </span>
         </button>
 
