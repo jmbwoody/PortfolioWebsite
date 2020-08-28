@@ -32,12 +32,7 @@ const Header = () => {
                 <span>
                   <i className="ti-linkedin"></i>
                 </span>
-              </a>
-              <a onClick={() => openLinkInNewWindow(urls.facebook)}>
-                <span>
-                  <i className="ti-facebook"></i>
-                </span>
-              </a>              
+              </a>                         
               <a onClick={() => openLinkInNewWindow(urls.github)}>
                 <span>
                   <i className="ti-github"></i>
@@ -48,6 +43,11 @@ const Header = () => {
                   <i className="ti-write"></i>
                 </span>
               </a>
+              <a onClick={() => openLinkInNewWindow(urls.facebook)}>
+                <span>
+                  <i className="ti-facebook"></i>
+                </span>
+              </a>   
             </div>
           </div>
         </div>

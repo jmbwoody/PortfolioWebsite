@@ -23,7 +23,11 @@ const Contact = () => {
             <div
               className="item col-lg-4 mb-md-50 wow fadeInDown"
               data-wow-offset="50"
-            >
+            ><span className="icon">
+
+            </span>
+            <h6></h6>
+            <p>Thank you for visiting my Portfolio Portal.</p><p>Please let me know your feedback.< br/> I can be contacted anytime by phone or email.</p>
             </div>
 
             <div className="item col-lg-4 wow fadeInRight" data-wow-offset="50">
