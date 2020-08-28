@@ -18,19 +18,8 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <ProjectsGallery />
-        <div className="container">
-        <div className="section-head wow zoomIn" data-wow-offset="200">
-          <br/>
-          <h3>Resume</h3>
-          <div className="row">
-            <div className="col-lg-6 col-md-8 mx-auto">
-            <a target="_blank" href="https://docs.google.com/document/d/1yhKtGO85roP0jczfSMfXNB4D4w6MgQupEtQYfObnAY8/"><p>A link to my latest resume can be found here.</p></a>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
+        <ProjectsGallery />        
+        </div>      
     </section>
   );
 };
