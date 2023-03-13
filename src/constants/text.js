@@ -18,7 +18,7 @@ export default {
       },
       {
         title: `Microsoft Stack Developer`,
-        description: `C#, VB.NET, Windows Forms and WPF expret.`
+        description: `C#, VB.NET, Windows Forms and WPF expert.`
       },
       {
         title: `RDBMS and Sql Designer`,

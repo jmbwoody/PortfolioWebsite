@@ -21,11 +21,54 @@ import project02_image10 from "../assets/img/datasource/10.png";
 import project03_image0 from "../assets/img/githubicon.png";
 
 
+import project04_image0 from "../assets/img/first american logo.jpg";
+
+import project04_image1 from "../assets/img/cover1.gif";
+import project04_image2 from "../assets/img/coverpage.PNG";
+
+import project04_image3 from "../assets/img/document-uploads-page.gif";
 
 
 
 
 export default [
+  {
+    id: "project-001",
+    imageName: project04_image0,
+    mainHeader: "First American Title",
+    description: `ClarityFirst App\nSoftware Engineer III  - Sr. Front-End Developer \n
+    
+    Worked as a full=stack Software Engineer focusing in React Front-end development on the desktop web app ClairtyFirst, the first end-to-end digital solution for commercial and residential real estate transactions.  \n
+    Responsible for interface implimentation and integrating web applications with application tier or with backend databases.  \n    
+    Hands on expertise in front-end development utilizing Javascript framework React.JS with Hooks, TypeScript, and the React Testing Library.  \n    
+    Experience in Node.JS, Github, Docker, Visual Studio, .NET, AJAX, RESTful APIs, Postman, Swagger, Github, Azure DevOps, and Figma Studio,     \n    
+    Experience in using Node.JS and GIT version control tools such as GitKraken for Github repository managment.   \n    
+    Experience in implempenting Component life cycle architecture, store actions, using socket.io in React-Redux app to handle real time data,      
+    installing React Router, ThunkRedux for API Calls in React JS. \n
+    Experience in developing style components with LESS & SASS.     \n
+    Involved in all the stages of Software Development Life Cycle including Requirements, Analysis and Design, Implementation, Integration and      
+    Testing, Depoloyment and Maintenance.  
+    `,
+    upperClassNames: "col-lg-4 col-md-6 item web",
+    classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft",
+    images: [
+      {
+        imageName: project04_image1,
+        upperClassNames: "col-lg-4 col-md-6 item web",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
+      },
+      {
+        imageName: project04_image2,
+        upperClassNames: "col-lg-4 col-md-6 item graphic",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInUp "
+      },
+      {
+        imageName: project04_image3,
+        upperClassNames: "col-lg-4 col-md-6 item brand",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInRight"
+      }
+    ]
+  },
   {
     id: "project-01",
     imageName: project01_image0,

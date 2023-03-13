@@ -33,7 +33,7 @@ const Project = () => {
           <div className="section-head wow zoomIn" data-wow-offset="200">
             <h3>{projects[index].mainHeader}</h3>
             <div className="row">
-              <div className="col-lg-6 col-md-8 mx-auto">
+              <div className="col-lg-6 col-md-8 mx-auto" style={{ textAlign: 'left' }} >
                 <p>{projects[index].description}</p>
               </div>
             </div>
