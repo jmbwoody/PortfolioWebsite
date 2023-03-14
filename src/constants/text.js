@@ -1,12 +1,12 @@
 export default {
-  about_me: `I'm an experienced full stack web engineer. I created this site with React JavaScript, Node.JS, and webpack.`,
+  about_me: `I'm an experienced full-stack web/software engineer. \nThis site is created with React JavaScript, Node.JS, and webpack.`,
   workCategories: {
     title: `My Background`,
     intro: "As a software engineer I'm more active in these areas.",
     fields: [
       {
         title: `Front End Engineer`,
-        description: `Architecting and developing several medium to large projects from scratch or be a part of great teams of front-end developers.`
+        description: `I am experienced with all steps of the full software development cycle including Planning, analysis, design, implementation, testing and integration, and maintenance.`
       },
       {
         title: `Software Architect`,
@@ -14,7 +14,7 @@ export default {
       },
       {
         title: `Back End Engineer`,
-        description: `Designing and developing several servers with Node.js, ASP.NET MVC and ASP.NET Core.`
+        description: `Designing and developing several servers with Node.js, ASP.NET MVC and ASP.NET Core. \n Docker, CI, Azure DevOps`
       },
       {
         title: `Microsoft Stack Developer`,

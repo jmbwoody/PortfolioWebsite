@@ -1,7 +1,7 @@
 import project01_image0 from "../assets/img/kansysEdge.jpg";
-import project01_image1 from "../assets/img/Aliv1.jpg";
-import project01_image2 from "../assets/img/Aliv2.jpg";
-import project01_image3 from "../assets/img/Aliv3.jpg";
+import project01_image01 from "../assets/img/Aliv1.jpg";
+import project01_image02 from "../assets/img/Aliv2.jpg";
+import project01_image03 from "../assets/img/Aliv3.jpg";
 
 
 import project02_image0 from "../assets/img/dataSource.png";
@@ -21,23 +21,31 @@ import project02_image10 from "../assets/img/datasource/10.png";
 import project03_image0 from "../assets/img/githubicon.png";
 
 
-import project04_image0 from "../assets/img/first american logo.jpg";
+import project04_image00 from "../assets/img/first american logo.jpg";
 
-import project04_image1 from "../assets/img/cover1.gif";
-import project04_image2 from "../assets/img/coverpage.PNG";
+import project04_image01 from "../assets/img/cover1.gif";
+import project04_image02 from "../assets/img/coverpage.PNG";
 
-import project04_image3 from "../assets/img/document-uploads-page.gif";
+import project04_image03 from "../assets/img/document-uploads-page.gif";
+
+
+import project05_image00 from "../assets/img/go-local-logo.jfif";
+import project05_image01 from "../assets/img/storage-essentials.png";
+import project05_image02 from "../assets/img/central-self-storage-image.PNG";
+import project05_image03 from "../assets/img/istorage.PNG";
+import project05_image04 from "../assets/img/advantage-storage.PNG";
+import project05_image05 from "../assets/img/selfStorage.PNG";
+
 
 
 
 
 export default [
   {
-    id: "project-001",
-    imageName: project04_image0,
+    id: "project-04",
+    imageName: project04_image00,
     mainHeader: "First American Title",
-    description: `ClarityFirst App\nSoftware Engineer III  - Sr. Front-End Developer \n
-    
+    description: `ClarityFirst App\nSoftware Engineer III  - Sr. Front-End Developer \n    
     Worked as a full=stack Software Engineer focusing in React Front-end development on the desktop web app ClairtyFirst, the first end-to-end digital solution for commercial and residential real estate transactions.  \n
     Responsible for interface implimentation and integrating web applications with application tier or with backend databases.  \n    
     Hands on expertise in front-end development utilizing Javascript framework React.JS with Hooks, TypeScript, and the React Testing Library.  \n    
@@ -53,20 +61,65 @@ export default [
     classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft",
     images: [
       {
-        imageName: project04_image1,
+        imageName: project04_image01,
         upperClassNames: "col-lg-4 col-md-6 item web",
         classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
       },
       {
-        imageName: project04_image2,
+        imageName: project04_image02,
         upperClassNames: "col-lg-4 col-md-6 item graphic",
         classNames: "item-img mb-30 mb-sm-50 wow fadeInUp "
       },
       {
-        imageName: project04_image3,
+        imageName: project04_image03,
         upperClassNames: "col-lg-4 col-md-6 item brand",
         classNames: "item-img mb-30 mb-sm-50 wow fadeInRight"
       }
+    ]
+  },
+  {
+    id: "project-05",
+    imageName: project05_image00,
+    mainHeader: "Go Local Interactive",
+    description: `Software Engineer III  - UI/UX Application Developer \n    
+    Build and Maintained over 40 bitbucket repositories with GIT that contain Go Local’s client websites. \n
+    Designed and developed new functionality for multiple client’s websites in PHP, Javascript, HTML, and CSS. \n
+    Responsibilities included creating and maintaining the storage essentials platform, it is created with Vue JS. \n
+    I integrated GoLocal’s clients Wordpress sites with a more robust SaaS named “Storage Essentials”.   
+    `,
+    upperClassNames: "col-lg-4 col-md-6 item web",
+    classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft",
+    images: [
+      {
+        imageName: project05_image00,
+        upperClassNames: "col-lg-4 col-md-6 item web",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
+      },
+      {
+        imageName: project05_image01,
+        upperClassNames: "col-lg-4 col-md-6 item graphic",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInUp "
+      },
+      {
+        imageName: project05_image02,
+        upperClassNames: "col-lg-4 col-md-6 item brand",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInRight"
+      },
+      {
+        imageName: project05_image03,
+        upperClassNames: "col-lg-4 col-md-6 item brand",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInRight"
+      },
+      {
+        imageName: project05_image04,
+        upperClassNames: "col-lg-4 col-md-6 item brand",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInRight"
+      },
+      {
+        imageName: project05_image05,
+        upperClassNames: "col-lg-4 col-md-6 item brand",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInRight"
+      },
     ]
   },
   {
@@ -84,17 +137,17 @@ export default [
     classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft",
     images: [
       {
-        imageName: project01_image1,
+        imageName: project01_image01,
         upperClassNames: "col-lg-4 col-md-6 item web",
         classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
       },
       {
-        imageName: project01_image2,
+        imageName: project01_image02,
         upperClassNames: "col-lg-4 col-md-6 item graphic",
         classNames: "item-img mb-30 mb-sm-50 wow fadeInUp "
       },
       {
-        imageName: project01_image3,
+        imageName: project01_image03,
         upperClassNames: "col-lg-4 col-md-6 item brand",
         classNames: "item-img mb-30 mb-sm-50 wow fadeInRight"
       }
