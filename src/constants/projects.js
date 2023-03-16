@@ -46,7 +46,7 @@ export default [
     imageName: project04_image00,
     mainHeader: "First American Title",
     description: `ClarityFirst App\nSoftware Engineer III  - Sr. Front-End Developer \n    
-    Worked as a full=stack Software Engineer focusing in React Front-end development on the desktop web app ClairtyFirst, the first end-to-end digital solution for commercial and residential real estate transactions.  \n
+    Worked as a full-stack Software Engineer focusing in React Front-end development on the desktop web app ClairtyFirst, the first end-to-end digital solution for commercial and residential real estate transactions.  \n
     Responsible for interface implimentation and integrating web applications with application tier or with backend databases.  \n    
     Hands on expertise in front-end development utilizing Javascript framework React.JS with Hooks, TypeScript, and the React Testing Library.  \n    
     Experience in Node.JS, Github, Docker, Visual Studio, .NET, AJAX, RESTful APIs, Postman, Swagger, Github, Azure DevOps, and Figma Studio,     \n    
