@@ -52,39 +52,24 @@ const Navbar = (props) => {
           {fullMenu ? (
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <AnchorLink className="nav-link" href="#home" data-scroll-nav="0" onClick={ closeMenu }>
+                <AnchorLink className="nav-link" href="#home" data-scroll-nav="0" onClick={ closeMenu } >
                   Home <span className="sr-only">(current)</span>
                 </AnchorLink>
               </li>
               <li className="nav-item">
-                <AnchorLink
-                  className="nav-link"
-                  href="#about"
-                  data-scroll-nav="1"
-                  onClick={ closeMenu }
-                >
+                <AnchorLink className="nav-link" href="#about" data-scroll-nav="1" onClick={ closeMenu } offset="80">
                   {" "}
                   About
                 </AnchorLink>
               </li>
               <li className="nav-item">
-                <AnchorLink
-                  className="nav-link"
-                  href="#workCategories"
-                  data-scroll-nav="2"
-                  onClick={ closeMenu }
-                >
+                <AnchorLink className="nav-link" href="#workCategories" data-scroll-nav="2" onClick={ closeMenu } offset="80">
                   {" "}
                   Fields
                 </AnchorLink>
               </li>
               <li className="nav-item">
-                <AnchorLink
-                  className="nav-link"
-                  href="#portfolio"
-                  data-scroll-nav="3"
-                  onClick={ closeMenu }
-                >
+                <AnchorLink className="nav-link" href="#portfolio" data-scroll-nav="3" onClick={ closeMenu } offset="80">
                   {" "}
                   Portfolio
                 </AnchorLink>

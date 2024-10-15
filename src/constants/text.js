@@ -6,11 +6,11 @@ export default {
     fields: [
       {
         title: `Front End Engineer`,
-        description: `I am experienced with all steps of the full software development cycle including Planning, Analysis, Design, Implementation, Testing and Integration, and Maintenance.`
+        description: `Experienced in the full software development cycle including Planning, Analysis, Design, Implementation, Automation Testing, and Maintenance.`
       },
       {
         title: `Software Architect`,
-        description: `Architecting projects with server, web and mobile client API's with different Javascript Libraries/Frameworks.`
+        description: `Architecting projects with server, web and mobile client API's with different Javascript Libraries/Frameworks. React JS, Angular JS, Vue JS`
       },
       {
         title: `Back End Engineer`,
@@ -26,7 +26,7 @@ export default {
       },
       {
         title: `Start Up Expert`,
-        description: `Creating Applications from scratch. Very familiar with small business start up environments.`
+        description: `Creating Applications from scratch. Familiar with small business start up environments.`
       }
     ]
   }

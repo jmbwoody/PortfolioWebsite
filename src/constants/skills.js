@@ -5,8 +5,15 @@ import html_image from '../assets/img/skills/html.png';
 import dot_net_image from '../assets/img/skills/Microsoft-Dotnet.png';
 import css_image from '../assets/img/skills/CSS.png';
 import c_sharp_image from '../assets/img/skills/C-Sharp.png';
+import angular_shield_image from '../assets/img/skills/AngularJS-Shield.svg';
 
 export default [
+  { 
+    name: "Angular JS",
+    width: '170px',
+    image: angular_shield_image,
+    height: '100px'
+  },
   { 
     name: "JavaScript",
     width: '170px',

@@ -37,25 +37,67 @@ import project05_image04 from "../assets/img/advantage-storage.PNG";
 import project05_image05 from "../assets/img/selfStorage.PNG";
 
 
+import project06_image00 from "../assets/img/education-logo-columbia-university.webp";
+import project06_image01 from "../assets/img/columbia-university-website-screenshot.jpg"
 
+import project07_image00 from "../assets/img/federal-reserve-bank-of-st-louis.jpg"
 
 
 export default [
   {
+    id: "project-07",
+    imageName: project07_image00,
+    mainHeader: "Federal Reserve Bank of St. Louis",
+    description: `\nSenior Software Engineer \n    
+    Developed and maintained dynamic web applications using Angular and Spring Boot, enhancing user experience and performance. \n    
+    Collaborated with cross-functional teams to gather requirements and deliver solutions that meet client specifications.  \n    
+    Implemented AWS services for scalable application hosting, including EC2 for computing and S3 for storage solutions. \n    
+    Designed RESTful APIs for seamless integration between front-end and back-end services, ensuring data consistency and reliability. \n    
+    Enhanced the user experience by integrating the US Web Design System (USWDS) into Angular front-end, utilizing SASS for theming. \n
+    Deployed services to AWS Elastic Container Service (ECS) using Docker containers and Gitlab pipeline. \n
+    Worked closely with the QA team to troubleshoot and resolve issues, enhancing product reliability by adding API testing functionality using Xray for managing test cases and Cucumber for implementing behavior-driven development (BDD). \n
+    `,
+    upperClassNames: "col-lg-4 col-md-6 item web",
+    classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft",
+    images: [ 
+    ]
+  },
+  {
+    id: "project-06",
+    imageName: project06_image00,
+    mainHeader: "Columbia University",
+    description: `\nFront-End Drupal Developer \n    
+      Developed and maintained multiple Drupal websites, focusing on news and media content management.\n    
+      Designed and implemented responsive themes that enhanced user engagement and accessibility across devices. \n    
+      Streamlined the process for posting and managing news articles, resulting in a 25% reduction in publication time\n    
+      Collaborated with editors and content creators to optimize article layouts and improve overall readability. \n    
+      Integrated SEO best practices to increase organic traffic by utilizing BrightEdge SEO to optimize online presence and improve search visibility. 
+    `,
+    upperClassNames: "col-lg-4 col-md-6 item web",
+    classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft",
+    images: [
+      {
+        imageName: project06_image01,
+        upperClassNames: "col-lg-12 col-md-12 item web",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
+      } 
+    ]
+  },
+  {
     id: "project-04",
     imageName: project04_image00,
     mainHeader: "First American Title",
-    description: `ClarityFirst App\nSoftware Engineer III  - Sr. Front-End Developer \n    
-    Worked as a full-stack Software Engineer focusing in React Front-end development on the desktop web app ClairtyFirst, the first end-to-end digital solution for commercial and residential real estate transactions.  \n
-    Responsible for interface implimentation and integrating web applications with application tier or with backend databases.  \n    
-    Hands on expertise in front-end development utilizing Javascript framework React.JS with Hooks, TypeScript, and the React Testing Library.  \n    
-    Experience in Node.JS, Github, Docker, Visual Studio, .NET, AJAX, RESTful APIs, Postman, Swagger, Github, Azure DevOps, and Figma Studio,     \n    
-    Experience in using Node.JS and GIT version control tools such as GitKraken for Github repository managment.   \n    
-    Experience in implempenting Component life cycle architecture, store actions, using socket.io in React-Redux app to handle real time data,      
-    installing React Router, ThunkRedux for API Calls in React JS. \n
-    Experience in developing style components with LESS & SASS.     \n
-    Involved in all the stages of Software Development Life Cycle including Requirements, Analysis and Design, Implementation, Integration and      
-    Testing, Depoloyment and Maintenance.  
+    description: `ClarityFirst App\nSoftware Engineer III  - Sr. Front-End Developer \n  
+      Worked as a full-stack Software Engineer focusing in React Front-end development on the desktop web app ClairtyFirst, the first end-to-end digital solution for commercial and residential real estate transactions.  \n
+      Responsible for interface implimentation and integrating web applications with application tier or with backend databases.  \n    
+      Hands on expertise in front-end development utilizing Javascript framework React.JS with Hooks, TypeScript, and the React Testing Library.  \n    
+      Experience in Node.JS, Github, Docker, Visual Studio, .NET, AJAX, RESTful APIs, Postman, Swagger, Github, Azure DevOps, and Figma Studio,     \n    
+      Experience in using Node.JS and GIT version control tools such as GitKraken for Github repository managment.   \n    
+      Experience in implempenting Component life cycle architecture, store actions, using socket.io in React-Redux app to handle real time data,      
+      installing React Router, ThunkRedux for API Calls in React JS. \n
+      Experience in developing style components with LESS & SASS.     \n
+      Involved in all the stages of Software Development Life Cycle including Requirements, Analysis and Design, Implementation, Integration and      
+      Testing, Depoloyment and Maintenance.  
     `,
     upperClassNames: "col-lg-4 col-md-6 item web",
     classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft",

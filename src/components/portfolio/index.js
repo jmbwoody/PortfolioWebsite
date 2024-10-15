@@ -14,7 +14,7 @@ const Portfolio = () => {
           <h3>Portfolio</h3>
           <div className="row">
             <div className="col-lg-6 col-md-8 mx-auto">
-              <p>A list of some clients and projects I've worked with using the latest techonolgy stack including React Javascript ES6+. <br />Click each Logo for more information.</p>
+              <p>A list of some clients and projects I've worked on. <br />Click a Logo to view details about the projects I worked on for each company.</p>
             </div>
           </div>
         </div>

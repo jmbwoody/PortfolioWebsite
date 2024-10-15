@@ -25,7 +25,8 @@ const Header = () => {
             />
 
             <h1>Brian Woodward</h1>
-            <h2>Full Stack Web Engineer</h2>
+            <h2>Software Engineer III</h2>
+            <h2>Specializing in Front-End (React, AngularJS) web application development</h2>
 
             <div className="social-media">
             <a onClick={() => openLinkInNewWindow(urls.resume)}>

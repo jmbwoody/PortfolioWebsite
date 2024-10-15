@@ -44,9 +44,9 @@
 	color: #eee;
 	background: rgba(117, 117, 117, .1);
 	font-size: 13px;
-	height: 30px;
-	width: 30px;
-	line-height: 31px;
+	height: 45px;
+	width: 45px;
+	line-height: 45px;
 	border: 1px solid rgba(117, 117, 117, .2);
 	border-radius: 5px;
 	-webkit-transition: all .3s;

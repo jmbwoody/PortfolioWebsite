@@ -25,7 +25,7 @@ const Header = () => {
             />
             <a href="https://docs.google.com/document/d/1PxIZWqFPF_K-2Ut6SwEXEPXegnD-Yrp4se49Keta3y8/" target="_blank">
             <h1>My Resume</h1>
-            <h2>Click here for a link to my current updated resume</h2>
+            <h2>Follow the link below to view my current resume</h2>
             </a>
             <div className="social-media">            
               <a onClick={() => openLinkInNewWindow(urls.resume)}>
