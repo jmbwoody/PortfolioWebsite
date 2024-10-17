@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "734ecfec4a2fb479926cb79daef9091e",
+    "revision": "1faedf68b30a5c0276228e589e7e1e64",
     "url": "/PortfolioWebsite/index.html"
   },
   {
-    "revision": "9aaff86c5cd68cf05a41",
+    "revision": "27ca2a8cd317fef68120",
     "url": "/PortfolioWebsite/static/css/2.f543e5b6.chunk.css"
   },
   {
-    "revision": "c57c6424145d3718f03b",
-    "url": "/PortfolioWebsite/static/css/main.8a3309bc.chunk.css"
+    "revision": "b72aaa8c933b9100b3e0",
+    "url": "/PortfolioWebsite/static/css/main.823d174d.chunk.css"
   },
   {
-    "revision": "9aaff86c5cd68cf05a41",
-    "url": "/PortfolioWebsite/static/js/2.43f1bf83.chunk.js"
+    "revision": "27ca2a8cd317fef68120",
+    "url": "/PortfolioWebsite/static/js/2.153ccdbd.chunk.js"
   },
   {
-    "revision": "c57c6424145d3718f03b",
-    "url": "/PortfolioWebsite/static/js/main.af711588.chunk.js"
+    "revision": "b72aaa8c933b9100b3e0",
+    "url": "/PortfolioWebsite/static/js/main.c55f6f69.chunk.js"
   },
   {
     "revision": "9bff828767b346b971fd",
@@ -80,6 +80,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PortfolioWebsite/static/media/Aliv3.7b6215f5.jpg"
   },
   {
+    "revision": "930ad6fd4cf2e62494fea8a76ef0b5a6",
+    "url": "/PortfolioWebsite/static/media/AngularJS-Shield.930ad6fd.svg"
+  },
+  {
     "revision": "01aeba5a5fd2684a58b67b3ff82ada9d",
     "url": "/PortfolioWebsite/static/media/C-Sharp.01aeba5a.png"
   },
@@ -104,6 +108,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PortfolioWebsite/static/media/central-self-storage-image.2aadbf5a.PNG"
   },
   {
+    "revision": "4be9ebb660c2344266e121eca09c0639",
+    "url": "/PortfolioWebsite/static/media/columbia-university-website-screenshot.4be9ebb6.jpg"
+  },
+  {
     "revision": "72ea438cbf4ddddc961655cdf9a3c0f2",
     "url": "/PortfolioWebsite/static/media/cover1.72ea438c.gif"
   },
@@ -122,6 +130,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f5e82716e78f6e9051ff90d27bc9d351",
     "url": "/PortfolioWebsite/static/media/document-uploads-page.f5e82716.gif"
+  },
+  {
+    "revision": "729fabfa0976218466603e352cfa533a",
+    "url": "/PortfolioWebsite/static/media/education-logo-columbia-university.729fabfa.webp"
   },
   {
     "revision": "3897e68864e7fe1fbb468c0220573010",
@@ -182,6 +194,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "815694de1120d6c1e9d1f0895ee81056",
     "url": "/PortfolioWebsite/static/media/fa-solid-900.815694de.woff"
+  },
+  {
+    "revision": "7d08d34e9ea069c6fed666409d15bba9",
+    "url": "/PortfolioWebsite/static/media/federal-reserve-bank-of-st-louis.7d08d34e.jpg"
   },
   {
     "revision": "4988f6633cff7af556123a671bf4185e",
