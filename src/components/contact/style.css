@@ -48,8 +48,20 @@
 	margin-top: 5px
 }
 
+.header .caption .social-media.resume span {
+    color: #eee;
+    background: rgba(117, 117, 117, .1);
+    font-size: 45px;
+    height: 80px;
+    width: 85px;
+    line-height: 80px;
+    border: 1px solid rgba(117, 117, 117, .2);
+    border-radius: 5px;
+    transition: all .3s;
+}
+
 .contact .contact-info {
-	margin-top: 100px;
+	margin-top: 0px;
 	padding: 30px 0;
 	background: #212121;
 	border-top-left-radius: 5px;

@@ -40,10 +40,16 @@
 	font-weight: 500
 }
 
+.header .caption .social-media p {
+	color: #eee;
+	padding-top: 5px;
+    font-size: 14px;
+}
+
 .header .caption .social-media span {
 	color: #eee;
 	background: rgba(117, 117, 117, .1);
-	font-size: 13px;
+	font-size: 20px;  
 	height: 45px;
 	width: 45px;
 	line-height: 45px;
@@ -55,7 +61,8 @@
 
 .header .caption .social-media span:hover {
 	color: #fff;
-	background: #7cb342
+	background: #7cb342;
+	cursor: pointer;
 }
 
 .header .rounded-image {

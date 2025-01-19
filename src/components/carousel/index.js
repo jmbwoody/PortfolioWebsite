@@ -17,7 +17,7 @@ class Carousel extends React.Component {
         )
       });
 
-    let slidesToShow = 4;
+    let slidesToShow = 6;
     const screenWidth = window.screen.width;
     if(osDetect.isMobile() || screenWidth < 991) {
       slidesToShow = 2;

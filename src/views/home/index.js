@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "../../components/header";
 import About from "../../components/about";
+import WelcomeMessage from "../../components/welcomeMessage";
 import Carousel from "../../components/carousel";
 import WorkCategories from "../../components/workCategories";
 import Navbar from "../../components/navbar";
@@ -21,9 +22,11 @@ class Home extends Component {
 
         <Header />
 
-        <About />
+        <WelcomeMessage />
 
         <Carousel />
+
+        <About /> 
 
         <WorkCategories />
 

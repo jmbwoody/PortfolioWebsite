@@ -18,16 +18,12 @@ const Header = () => {
       <div className="v-middle">
         <div className="container">
           <div className="caption text-center wow slideInDown">
-            <img
-              className="img-thumbnail rounded-image"
-              src={meImage}
-              alt='Brian Woodward'
-            />
-            <a href="https://docs.google.com/document/d/1PxIZWqFPF_K-2Ut6SwEXEPXegnD-Yrp4se49Keta3y8/" target="_blank">
-            <h1>My Resume</h1>
-            <h2>Follow the link below to view my current resume</h2>
-            </a>
-            <div className="social-media">            
+              <img className="img-thumbnail rounded-image" src={meImage} alt='Brian Woodward' />
+              {/* <a href="https://docs.google.com/document/d/1PxIZWqFPF_K-2Ut6SwEXEPXegnD-Yrp4se49Keta3y8/" target="_blank"> */}
+                <h1>Resume</h1>
+                <h2>View my current resume</h2>
+              {/* </a> */}
+            <div id="resumeLink" className="social-media">            
               <a onClick={() => openLinkInNewWindow(urls.resume)}>
                 <span>
                   <i className="ti-write"></i>

@@ -80,7 +80,7 @@ const Navbar = (props) => {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
               <li className="nav-item active">
-                <Link to={`/`}>Home</Link>
+                <Link to={`/#portfolio`}>Portfolio</Link>
               </li>
               </li>
             </ul>

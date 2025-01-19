@@ -47,13 +47,24 @@ p {
 }
 
 .section-head {
-	margin-bottom: 80px
+	margin-bottom: 20px
 }
 
 .section-head h3 {
 	font-size: 30px;
 	font-weight: 600;
-	margin-bottom: 30px
+	margin-bottom: 30px;	
+}
+
+.portfolio .section-head h3 {
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 30px;	
+	color: #fff !important;
+}
+
+.portfolio .section-head p {
+	color: #fff !important;
 }
 
 .sub-heading {

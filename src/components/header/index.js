@@ -29,28 +29,40 @@ const Header = () => {
             <h2>Specializing in Front-End (React, AngularJS) web application development</h2>
 
             <div className="social-media">
-            <a onClick={() => openLinkInNewWindow(urls.resume)}>
-                <span>
-                  <i className="ti-write"></i>
-                </span>
-              </a>
-            <a onClick={() => openLinkInNewWindow(urls.linkedin)}>
-                <span>
-                  <i className="ti-linkedin"></i>
-                </span>
-              </a>                         
-              <a onClick={() => openLinkInNewWindow(urls.github)}>
-                <span>
-                  <i className="ti-github"></i>
-                </span>
-              </a>
-              
-              <a onClick={() => openLinkInNewWindow(urls.facebook)}>
-                <span>
-                  <i className="ti-facebook"></i>
-                </span>
-              </a>   
+                <a onClick={() => openLinkInNewWindow(urls.resume)}>
+                    <span>
+                      <i className="ti-write"></i>
+                    </span>
+                    <p>
+                      Resume
+                    </p>
+                </a>
+                <a onClick={() => openLinkInNewWindow(urls.linkedin)}>
+                    <span>
+                      <i className="ti-linkedin"></i>
+                    </span>
+                    <p>
+                      LinkedIn
+                    </p>
+                </a>                         
+                <a onClick={() => openLinkInNewWindow(urls.github)}>
+                  <span>
+                    <i className="ti-github"></i>
+                  </span>
+                  <p>
+                      GitHub
+                    </p>
+                </a>                
+                <a onClick={() => openLinkInNewWindow(urls.facebook)}>
+                  <span>
+                    <i className="ti-facebook"></i>
+                  </span>
+                  <p>
+                      Facebook
+                    </p>
+                </a>   
             </div>
+
           </div>
         </div>
       </div>

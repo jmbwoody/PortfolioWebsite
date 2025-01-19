@@ -1,5 +1,5 @@
 .portfolio {
-	background: #f5f5f5;
+	background: #212121;
 	overflow: hidden
 }
 
@@ -27,6 +27,8 @@
 
 .slick-slider {
     padding-bottom: 20px;
+	background: #b7d5ef;
+	padding-top: 25px;
 }
 
 .portfolio .item-img {
@@ -83,26 +85,30 @@
 }
 
 .portfolio .item-img .overlay-info h5 {
-	margin-bottom: 20px
+	margin-bottom: 0px
 }
 
 .portfolio .item-img .overlay-info .icon {
-	font-size: 14px;
-	color: rgba(33, 33, 33, .5);
-	height: 30px;
-	width: 30px;
-	line-height: 30px;
-	border: 1px solid rgba(33, 33, 33, .5);
-	border-radius: 5px;
-	margin: 0 2px;
-	-webkit-transition: all .5s;
-	transition: all .5s
+	font-size: 72px;
+    color: rgba(33, 33, 33, .5);
+    height: 280px;
+    width: 280px;
+    line-height: 280px;
+    border: 1px solid rgba(33, 33, 33, .5);
+    border-radius: 5px;
+    margin: 0 2px;
+    transition: all .5s;
 }
 
 .portfolio .item-img .overlay-info .icon:hover {
 	color: #fff;
-	background: #7cb342;
-	border: 1px solid #7cb342
+	background: #7cb3424d;
+	border: 1px solid #7cb3424d;
+	cursor: pointer;
+}
+
+.fa-link:before{
+	content: "\f03e" !important;
 }
 
 .portfolio .item-img:hover .overlay-info {
@@ -115,8 +121,10 @@
 
 section#about {
     padding-top: 20px;
+	background: #e2c188;
 }
 
 section#workCategories {
     padding-top: 70px;
+	padding-bottom: 100px !important;
 }
