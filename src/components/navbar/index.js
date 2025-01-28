@@ -65,7 +65,7 @@ const Navbar = (props) => {
               <li className="nav-item">
                 <AnchorLink className="nav-link" href="#workCategories" data-scroll-nav="2" onClick={ closeMenu } offset="80">
                   {" "}
-                  Fields
+                  Background
                 </AnchorLink>
               </li>
               <li className="nav-item">

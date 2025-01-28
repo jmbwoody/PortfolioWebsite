@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5bbbfa4c6463c89802d7c6697775bc38",
+    "revision": "1225997be349771d1c76f2b5336d211a",
     "url": "/PortfolioWebsite/index.html"
   },
   {
-    "revision": "f485dd9140eb1d43db69",
+    "revision": "3f4b3d0c2fcdfd1b4b68",
     "url": "/PortfolioWebsite/static/css/2.f543e5b6.chunk.css"
   },
   {
-    "revision": "a6db6b1663a4508f3b61",
-    "url": "/PortfolioWebsite/static/css/main.639a5fee.chunk.css"
+    "revision": "da2590ae6b8b371d6a72",
+    "url": "/PortfolioWebsite/static/css/main.22067f3b.chunk.css"
   },
   {
-    "revision": "f485dd9140eb1d43db69",
-    "url": "/PortfolioWebsite/static/js/2.ec8a97a3.chunk.js"
+    "revision": "3f4b3d0c2fcdfd1b4b68",
+    "url": "/PortfolioWebsite/static/js/2.1032e742.chunk.js"
   },
   {
-    "revision": "a6db6b1663a4508f3b61",
-    "url": "/PortfolioWebsite/static/js/main.78bd278e.chunk.js"
+    "revision": "da2590ae6b8b371d6a72",
+    "url": "/PortfolioWebsite/static/js/main.6491ad55.chunk.js"
   },
   {
     "revision": "9bff828767b346b971fd",
@@ -104,8 +104,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PortfolioWebsite/static/media/banner-background.040d3da2.jpg"
   },
   {
+    "revision": "5b685ccc05521cac440a7bb220ede1b3",
+    "url": "/PortfolioWebsite/static/media/brian-portfolio-image.5b685ccc.png"
+  },
+  {
     "revision": "2aadbf5a1b1f537096f8c132ea67b781",
     "url": "/PortfolioWebsite/static/media/central-self-storage-image.2aadbf5a.PNG"
+  },
+  {
+    "revision": "6d1e01ffb0d4d998126fcad0b53cf4b7",
+    "url": "/PortfolioWebsite/static/media/codeBackgroundRound.6d1e01ff.jpg"
+  },
+  {
+    "revision": "512b0cf41081aee6d88b437540962ff1",
+    "url": "/PortfolioWebsite/static/media/coding-rainbow.512b0cf4.jpg"
+  },
+  {
+    "revision": "6703b6251895837192b5f04a536f03d6",
+    "url": "/PortfolioWebsite/static/media/codingBackgroundImage.6703b625.jpg"
+  },
+  {
+    "revision": "66ec6436bdcfb5047aa2967562922ddf",
+    "url": "/PortfolioWebsite/static/media/columbia-1.66ec6436.jpg"
+  },
+  {
+    "revision": "6e8d8a58a374db37fd9d5b6e9b85853f",
+    "url": "/PortfolioWebsite/static/media/columbia-2.6e8d8a58.jpg"
+  },
+  {
+    "revision": "4fd231baf33a5cd93cd8ad9d2041e932",
+    "url": "/PortfolioWebsite/static/media/columbia-3.4fd231ba.jpg"
   },
   {
     "revision": "4be9ebb660c2344266e121eca09c0639",
@@ -194,6 +222,50 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "815694de1120d6c1e9d1f0895ee81056",
     "url": "/PortfolioWebsite/static/media/fa-solid-900.815694de.woff"
+  },
+  {
+    "revision": "a2d3e55cf79e1aee36cda55f7a877ae5",
+    "url": "/PortfolioWebsite/static/media/fedReserve-1.a2d3e55c.png"
+  },
+  {
+    "revision": "44fc36e41884c1ee8bf69a3a5fa27bed",
+    "url": "/PortfolioWebsite/static/media/fedReserve-10.44fc36e4.png"
+  },
+  {
+    "revision": "5a7a0a94637a222b9db0ae7ad69c0ce8",
+    "url": "/PortfolioWebsite/static/media/fedReserve-11.5a7a0a94.png"
+  },
+  {
+    "revision": "7c6d8b5535bd02e79444a6f59ecd00b9",
+    "url": "/PortfolioWebsite/static/media/fedReserve-2.7c6d8b55.png"
+  },
+  {
+    "revision": "015b7cd2aac682f50a9649d82c4c7468",
+    "url": "/PortfolioWebsite/static/media/fedReserve-3.015b7cd2.png"
+  },
+  {
+    "revision": "b4e5d831bd3d49a9602521ff1291e9c2",
+    "url": "/PortfolioWebsite/static/media/fedReserve-4.b4e5d831.png"
+  },
+  {
+    "revision": "5ded144f6c97968466047baaaea7fc14",
+    "url": "/PortfolioWebsite/static/media/fedReserve-5.5ded144f.png"
+  },
+  {
+    "revision": "1795c9facdf78cc53046586a6076e1d2",
+    "url": "/PortfolioWebsite/static/media/fedReserve-6.1795c9fa.png"
+  },
+  {
+    "revision": "d9dc675e80d6f05f359d1d76b356aa7e",
+    "url": "/PortfolioWebsite/static/media/fedReserve-7.d9dc675e.png"
+  },
+  {
+    "revision": "51fb16b7a772be7882f050e75f605072",
+    "url": "/PortfolioWebsite/static/media/fedReserve-8.51fb16b7.png"
+  },
+  {
+    "revision": "c5561654c758701776b5660e050c97bc",
+    "url": "/PortfolioWebsite/static/media/fedReserve-9.c5561654.png"
   },
   {
     "revision": "7d08d34e9ea069c6fed666409d15bba9",

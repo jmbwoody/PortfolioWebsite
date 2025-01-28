@@ -7,4 +7,17 @@
     margin: auto;
     text-align: center;
     font-size: 20px;
-}
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+
+.slick-slider {
+    padding-bottom: 20px;
+	/* background: #b7d5ef; */
+    background-image: url(../../assets/img/coding-rainbow.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #4b6575;
+	padding-top: 25px;
+} 

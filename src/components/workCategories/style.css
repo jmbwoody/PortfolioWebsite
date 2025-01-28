@@ -4,7 +4,7 @@
 }
 
 .workCategories .item {
-	background: #fff;
+	background: #e6f1fde6;
 	padding: 30px;
 	border: 1px solid #eee;
 	border-radius: 5px;
@@ -18,12 +18,23 @@
 }
 
 .workCategories .item .icon {
-	color: #7cb342;
+	color: #008cff;
 	font-size: 30px;
 	margin-bottom: 15px;
 	-webkit-transition: all .5s;
 	transition: all .5s
 }
+
+.workCategories .sectionHeader h3,
+.workCategories .sectionHeader p {
+	color: #fff;
+}
+
+.workCategories .sectionHeader p {
+    font-size: 1.25rem;
+    margin-top: -1rem;
+}
+
 
 p {
 	white-space: pre-line;

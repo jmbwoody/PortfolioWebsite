@@ -2,6 +2,37 @@
     text-align: justify;
 }
 
+#aboutmeImage {
+	width: 150px;
+	/* height: 150px; */
+	margin: 0 auto;
+	background: 0 0;
+	margin-bottom: 20px;
+	border-radius: 10% !important;
+}
+.jumbotron { 
+    background-color: #868d95 !important; 
+	
+}
+.aboutMeJumbotron {
+	/* background-image: url(https://papers.co/wallpaper/papers.co-wb71-coding-rainbow-mac-pattern-background-java-36-3840x2400-4k-wallpaper.jpg); */
+	background-image: url(../../assets/img/coding-rainbow.jpg);
+    background-size: cover;
+    background-blend-mode: lighten;
+	margin-bottom: 0px !important;
+	box-shadow: inset 2px 0px 20px 6px;
+}
+.bubble{
+	background-color: #d1eaffdb;
+    padding: 20px 10px 25px 20px;
+    border: 1px solid #1c1e21;
+    box-shadow: 4px 4px 5px;
+    border-radius: 15px;
+
+}
+div#aboutmeImage img {
+    box-shadow: -6px 7px 12px;
+}
 .about {
 	overflow: hidden
 }
@@ -10,10 +41,6 @@
 	margin-bottom: 20px
 }
 
-.about .section-head h3 {
-	margin-bottom: 5px;
-	
-}
 
 .about .intro .details {
 	margin: 20px 0

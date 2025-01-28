@@ -12,10 +12,12 @@ const WorkCategories = () => {
     >
       <div className="container">
         <div className="section-head wow zoomIn" data-wow-offset="200">
-          <h3>{workCategoriesText.title}</h3>
-          <div className="row">
-            <div className="col-lg-6 col-md-8 mx-auto">
-              <p>{workCategoriesText.intro}</p>
+          <div className="sectionHeader">
+            <h3>{workCategoriesText.title}</h3>
+            <div className="row">
+              <div className="col-lg-6 col-md-8 mx-auto">
+                <p>{workCategoriesText.intro}</p>
+              </div>
             </div>
           </div>
         </div>

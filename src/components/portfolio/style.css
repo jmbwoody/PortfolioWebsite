@@ -25,11 +25,6 @@
 	background: #7cb342
 }
 
-.slick-slider {
-    padding-bottom: 20px;
-	background: #b7d5ef;
-	padding-top: 25px;
-}
 
 .portfolio .item-img {
 	position: relative;
@@ -119,10 +114,25 @@
 	padding-bottom: 20px !important;
 }
 
-section#about {
-    padding-top: 20px;
-	background: #e2c188;
+.portfolio {
+ 	background-image: url(../../assets/img/codeBackgroundRound.jpg);
+    background-size: cover;
+    background-blend-mode: color-dodge;
+    box-shadow: inset 0px 0px 50px 30px;
 }
+ 
+.projectContentsContainer {
+    background: #d1eaffdb;
+    border: 1px solid #1c1e21;
+    box-shadow: 4px 4px 5px;
+    border-radius: 15px;
+}
+
+.portfolio .section-head .projectContents p {
+	margin-top: 1rem;
+	color: #000 !important;
+}
+
 
 section#workCategories {
     padding-top: 70px;

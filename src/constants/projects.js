@@ -38,9 +38,27 @@ import project05_image05 from "../assets/img/selfStorage.PNG";
 
 
 import project06_image00 from "../assets/img/education-logo-columbia-university.webp";
+
 import project06_image01 from "../assets/img/columbia-university-website-screenshot.jpg"
+import project06_image02 from "../assets/img/columbia-1.jpg"
+import project06_image03 from "../assets/img/columbia-2.jpg"
+import project06_image04 from "../assets/img/columbia-3.jpg"
 
 import project07_image00 from "../assets/img/federal-reserve-bank-of-st-louis.jpg"
+ 
+
+import project07_image01 from "../assets/img/fed/fedReserve-1.png";
+import project07_image02 from "../assets/img/fed/fedReserve-2.png";
+import project07_image03 from "../assets/img/fed/fedReserve-3.png";
+import project07_image04 from "../assets/img/fed/fedReserve-4.png";
+import project07_image05 from "../assets/img/fed/fedReserve-5.png";
+import project07_image06 from "../assets/img/fed/fedReserve-6.png";
+import project07_image07 from "../assets/img/fed/fedReserve-7.png";
+import project07_image08 from "../assets/img/fed/fedReserve-8.png";
+import project07_image09 from "../assets/img/fed/fedReserve-9.png";
+import project07_image10 from "../assets/img/fed/fedReserve-10.png";
+import project07_image11 from "../assets/img/fed/fedReserve-11.png";
+
 
 
 export default [
@@ -48,7 +66,7 @@ export default [
     id: "project-07",
     imageName: project07_image00,
     mainHeader: "Federal Reserve Bank of St. Louis",
-    description: `\nSenior Software Engineer \n    
+    description: `Senior Software Engineer \n    
     Developed and maintained dynamic web applications using Angular and Spring Boot, enhancing user experience and performance. \n    
     Collaborated with cross-functional teams to gather requirements and deliver solutions that meet client specifications.  \n    
     Implemented AWS services for scalable application hosting, including EC2 for computing and S3 for storage solutions. \n    
@@ -60,13 +78,69 @@ export default [
     upperClassNames: "col-lg-4 col-md-6 item web",
     classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft",
     images: [ 
+      {
+        imageName: project07_image01,
+        upperClassNames: "col-lg-4 col-md-6 item web",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
+      },
+      
+      {
+        imageName: project07_image03,
+        upperClassNames: "col-lg-4 col-md-6 item web",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
+      },
+      {
+        imageName: project07_image04,
+        upperClassNames: "col-lg-4 col-md-6 item web",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
+      },
+      {
+        imageName: project07_image05,
+        upperClassNames: "col-lg-4 col-md-6 item web",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
+      },
+      {
+        imageName: project07_image06,
+        upperClassNames: "col-lg-4 col-md-6 item web",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
+      },
+      {
+        imageName: project07_image07,
+        upperClassNames: "col-lg-4 col-md-6 item web",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
+      },
+      {
+        imageName: project07_image08,
+        upperClassNames: "col-lg-4 col-md-6 item web",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
+      },
+      {
+        imageName: project07_image09,
+        upperClassNames: "col-lg-4 col-md-6 item web",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
+      },
+      {
+        imageName: project07_image02,
+        upperClassNames: "col-lg-4 col-md-6 item web",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
+      },
+      {
+        imageName: project07_image10,
+        upperClassNames: "col-lg-4 col-md-6 item web",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
+      },
+      {
+        imageName: project07_image11,
+        upperClassNames: "col-lg-4 col-md-6 item web",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
+      }
     ]
   },
   {
     id: "project-06",
     imageName: project06_image00,
     mainHeader: "Columbia University",
-    description: `\nFront-End Drupal Developer \n    
+    description: `Front-End Drupal Developer \n     
       Developed and maintained multiple Drupal websites, focusing on news and media content management.\n    
       Designed and implemented responsive themes that enhanced user engagement and accessibility across devices. \n    
       Streamlined the process for posting and managing news articles, resulting in a 25% reduction in publication time\n    
@@ -78,9 +152,24 @@ export default [
     images: [
       {
         imageName: project06_image01,
-        upperClassNames: "col-lg-12 col-md-12 item web",
+        upperClassNames: "col-lg-3 col-md-3 item web",
         classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
-      } 
+      },
+      {
+        imageName: project06_image02,
+        upperClassNames: "col-lg-3 col-md-3 item web",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
+      },
+      {
+        imageName: project06_image03,
+        upperClassNames: "col-lg-3 col-md-3 item web",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
+      },
+      {
+        imageName: project06_image04,
+        upperClassNames: "col-lg-3 col-md-3 item web",
+        classNames: "item-img mb-30 mb-sm-50 wow fadeInLeft"
+      }  
     ]
   },
   {

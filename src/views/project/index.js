@@ -25,16 +25,18 @@ const Project = () => {
   return (
     <React.Fragment>
       <Navbar />
-      <section
-        className="portfolio section-padding text-center"
-        data-scroll-index="3"
-      >
+      <section className="portfolio section-padding text-center project" data-scroll-index="3" >
         <div className="container">
           <div className="section-head wow zoomIn" data-wow-offset="200">
             <h3>{projects[index].mainHeader}</h3>
-            <div className="row">
-              <div className="col-lg-6 col-md-8 mx-auto" style={{ textAlign: 'left' }} >
-                <p>{projects[index].description}</p>
+            
+            <div className="row"> 
+              <div className="col-lg-6 col-md-8 mx-auto projectContentsContainer">
+                <div className="projectContents"> 
+                
+                  <p style={{ textAlign: 'left' }}>{projects[index].description}</p>
+                  
+                </div>
               </div>
             </div>
           </div>
