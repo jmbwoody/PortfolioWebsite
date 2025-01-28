@@ -26,7 +26,7 @@ const Contact = () => {
             >
               <span className="icon"></span>
               <h6></h6>
-              <p>What's holding you back? Contact me anytime by phone or email. </p>
+              <p>Contact me anytime by phone or email.</p>
             </div>
 
             <div className="item col-lg-4 wow fadeInRight" data-wow-offset="50">

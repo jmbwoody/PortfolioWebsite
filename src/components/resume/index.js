@@ -19,10 +19,8 @@ const Header = () => {
         <div className="container">
           <div className="caption text-center wow slideInDown">
               <img className="img-thumbnail rounded-image" src={meImage} alt='Brian Woodward' />
-              {/* <a href="https://docs.google.com/document/d/1PxIZWqFPF_K-2Ut6SwEXEPXegnD-Yrp4se49Keta3y8/" target="_blank"> */}
                 <h1>Resume</h1>
-                <h2>View my current resume</h2>
-              {/* </a> */}
+                <h2>View my resume</h2>
             <div id="resumeLink" className="social-media">            
               <a onClick={() => openLinkInNewWindow(urls.resume)}>
                 <span>
