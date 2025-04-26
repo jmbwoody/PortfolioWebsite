@@ -1,90 +1,81 @@
 import React, { useState, useEffect } from "react";
-import { useLocation, Link } from 'react-router-dom'
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import { useLocation, Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+import Button from "@mui/material/Button";
 
 const Navbar = (props) => {
   const [isMenuOpen, setMenuOpen] = useState(false);
-  const [style, setStyle] = useState({ display:'none' });
+  const [style, setStyle] = useState({ display: "none" });
   const [fullMenu, setFullMenu] = useState(true);
 
   let location = useLocation();
-  
-  useEffect( () => {
-      if(location.pathname.includes('/projects')) {
-        setFullMenu(false);
-      } else {
-        setFullMenu(true);
-      }
-    }, [location.pathname]
-  ) 
+
+  useEffect(() => {
+    if (location.pathname.includes("/projects")) {
+      setFullMenu(false);
+    } else {
+      setFullMenu(true);
+    }
+  }, [location.pathname]);
 
   const toggleNavbarInMobile = () => {
-    if(isMenuOpen){
-      //close menu
-      setStyle({ display:'none' });
+    if (isMenuOpen) {
+      setStyle({ display: "none" });
     } else {
-      setStyle({ display:'block' });
+      setStyle({ display: "block" });
     }
     setMenuOpen(!isMenuOpen);
-  }
+  };
 
   const closeMenu = () => {
-    setStyle({ display:'none' });
+    setStyle({ display: "none" });
     setMenuOpen(false);
-  }
-
+  };
 
   return (
     <nav className="navbar navbar-expand-md">
       <div className="container">
-        <button
-          className="navbar-toggler"
-          type="button"
-        >
-          <span className="menu-icon" onClick={toggleNavbarInMobile} style={ fullMenu? null : {color: '#212121'} }>
-            <i className="fas fa-bars"></i>&nbsp;
-            Brian Woodward
+        <button className="navbar-toggler" type="button">
+          <span
+            className="menu-icon"
+            onClick={toggleNavbarInMobile}
+            style={fullMenu ? null : { color: "#212121" }}
+          >
+            <i className="fas fa-bars"></i>&nbsp; Brian Woodward
           </span>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav" style={style}>
-         
           {fullMenu ? (
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <AnchorLink className="nav-link" href="#home" data-scroll-nav="0" onClick={ closeMenu } >
+                <HashLink className="nav-link" smooth to="#home" onClick={closeMenu}>
                   Home <span className="sr-only">(current)</span>
-                </AnchorLink>
+                </HashLink>
               </li>
               <li className="nav-item">
-                <AnchorLink className="nav-link" href="#about" data-scroll-nav="1" onClick={ closeMenu } offset="80">
-                  {" "}
+                <HashLink className="nav-link" smooth to="#about" onClick={closeMenu}>
                   About
-                </AnchorLink>
+                </HashLink>
               </li>
               <li className="nav-item">
-                <AnchorLink className="nav-link" href="#workCategories" data-scroll-nav="2" onClick={ closeMenu } offset="80">
-                  {" "}
+                <HashLink className="nav-link" smooth to="#workCategories" onClick={closeMenu}>
                   Background
-                </AnchorLink>
+                </HashLink>
               </li>
               <li className="nav-item">
-                <AnchorLink className="nav-link" href="#portfolio" data-scroll-nav="3" onClick={ closeMenu } offset="80">
-                  {" "}
+                <HashLink className="nav-link" smooth to="#portfolio" onClick={closeMenu}>
                   Portfolio
-                </AnchorLink>
+                </HashLink>
               </li>
             </ul>
-
-          ) : 
+          ) : (
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item active">
               <li className="nav-item active">
                 <Link to={`/#portfolio`}>Portfolio</Link>
               </li>
-              </li>
             </ul>
-    }
+          )}
         </div>
       </div>
     </nav>

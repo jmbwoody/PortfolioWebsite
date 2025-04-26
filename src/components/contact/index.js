@@ -24,8 +24,7 @@ const Contact = () => {
               className="item col-lg-4 mb-md-50 wow fadeInDown"
               data-wow-offset="50"
             >
-              <span className="icon"></span>
-              <h6></h6>
+              <span className="icon"></span> 
               <p>Contact me anytime by phone or email.</p>
             </div>
 

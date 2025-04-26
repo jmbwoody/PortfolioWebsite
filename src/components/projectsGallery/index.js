@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import { Redirect } from "react-router";
 
 import GalleryItem from "../../components/galleryItem";
@@ -15,7 +15,7 @@ const ProjectsGallery = () => {
   };
 
   if (redirect) {
-    return <Redirect push to={`/projects/${projectId}`} />;
+    return <Navigate push to={`/projects/${projectId}`} />;
   }
 
   const Projects = projects.map(project => {

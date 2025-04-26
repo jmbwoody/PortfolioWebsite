@@ -15,7 +15,7 @@ const About = () => {
                 <hr></hr>
                 <article className="blog-post">
                   <h2 className="display-5 link-body-emphasis mb-1">Here are a few things I've been concentrating on lately...</h2>
-                  <small className="blog-post-meta">January 27, 2025 by <a href="#">Brian Woodward</a></small>  
+                  <small className="blog-post-meta">January 27, 2025 by Brian Woodward</small>  
                     <p></p>
                       <ul>
                         <li>

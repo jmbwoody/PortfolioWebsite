@@ -22,11 +22,11 @@ const Header = () => {
                 <h1>Resume</h1>
                 <h2>View my resume</h2>
             <div id="resumeLink" className="social-media">            
-              <a onClick={() => openLinkInNewWindow(urls.resume)}>
+              <button onClick={() => openLinkInNewWindow(urls.resume)}>
                 <span>
                   <i className="ti-write"></i>
                 </span>
-              </a>              
+              </button>              
             </div>
           </div>
         </div>

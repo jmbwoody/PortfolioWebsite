@@ -23,43 +23,41 @@ const Header = () => {
               src={meImage}
               alt='Brian Woodward'
             />
-
-            <h1>Brian Woodward</h1>
-            <h2>Software Engineer III</h2>
-            <h2>Specializing in Front-End (React, AngularJS) web application development</h2>
-
+              <h1>Brian Woodward</h1>
+              <h2>Software Engineer III</h2>
+              <h2>Specializing in Front-End (React, AngularJS) web application development</h2>
             <div className="social-media">
-                <a onClick={() => openLinkInNewWindow(urls.resume)}>
-                    <span>
-                      <i className="ti-write"></i>
-                    </span>
-                    <p>
-                      Resume
-                    </p>
+                <a href='/' onClick={() => openLinkInNewWindow(urls.resume)}>
+                  <span>
+                    <i className="ti-write"></i>
+                  </span>
+                  <p>
+                    Resume
+                  </p>
                 </a>
-                <a onClick={() => openLinkInNewWindow(urls.linkedin)}>
-                    <span>
-                      <i className="ti-linkedin"></i>
-                    </span>
-                    <p>
-                      LinkedIn
-                    </p>
+                <a href='/' onClick={() => openLinkInNewWindow(urls.linkedin)}>
+                  <span>
+                    <i className="ti-linkedin"></i>
+                  </span>
+                  <p>
+                    LinkedIn
+                  </p>
                 </a>                         
-                <a onClick={() => openLinkInNewWindow(urls.github)}>
+                <a href='/' onClick={() => openLinkInNewWindow(urls.github)}>
                   <span>
                     <i className="ti-github"></i>
                   </span>
                   <p>
                       GitHub
-                    </p>
+                  </p>
                 </a>                
-                <a onClick={() => openLinkInNewWindow(urls.facebook)}>
+                <a href='/' onClick={() => openLinkInNewWindow(urls.facebook)}>
                   <span>
                     <i className="ti-facebook"></i>
                   </span>
                   <p>
                       Facebook
-                    </p>
+                  </p>
                 </a>   
             </div>
 
