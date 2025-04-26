@@ -21,7 +21,7 @@ import "../../styles/style.css";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/PortfolioWebsite">
         <Fragment>
          
           <ButtonTop scrollStepInPx="50" delayInMs="16.66" />
