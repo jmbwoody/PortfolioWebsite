@@ -1,5 +1,5 @@
 {
-  "name": "react-portfolio-website", 
+  "name": "react-portfolio-website",
   "version": "1.0.2",
   "homepage": "http://jmbwoody.github.io/PortfolioWebsite",
   "private": true,
@@ -9,6 +9,7 @@
     "@fontsource/roboto": "^5.2.5",
     "@mui/icons-material": "^7.0.2",
     "@mui/material": "^7.0.2",
+    "magnific-popup": "^1.2.0",
     "react": "^18.3.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.3.1",

@@ -1,7 +1,8 @@
 import React from "react";
 import osDetect from '../../utils/osDetect';
+  
 
-const GalleryItem = props => {
+const GalleryItem = props => { 
   return (
     <div className={props.item.upperClassNames} onClick={ osDetect.isMobile() ? props.clicked : null}>
       <div className={props.item.classNames} data-wow-offset="200">

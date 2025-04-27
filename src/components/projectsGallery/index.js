@@ -20,6 +20,7 @@ const ProjectsGallery = () => {
   const Projects = projects.map(project => {
     return (
       <GalleryItem
+        key={project.id}
         item={project}
         image={project.imageName}
         clicked={() => handleOnClick(project.id)}

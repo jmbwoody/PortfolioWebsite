@@ -8,9 +8,9 @@ import './style.css';
 
 class Carousel extends React.Component {
   render() {
-    const Skills = skills.map((skill) => { 
+    const Skills = skills.map((skill, index) => { 
         return (
-            <div className='carousel-image-container'>
+            <div key={index} className='carousel-image-container'>
             <img src={skill.image} alt={skill.name} className='carousel-image' style={{width:skill.width, height: skill.height}}/>
             <h3 className='carousel-title'>{skill.name}</h3>
             </div>

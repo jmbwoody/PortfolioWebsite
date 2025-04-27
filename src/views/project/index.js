@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import projects from "../../constants/projects";
 import GalleryItem from "../../components/galleryItem";
 import Navbar from "../../components/navbar";
-
+import $ from "jquery";
+import "magnific-popup";
+import "magnific-popup/dist/magnific-popup.css";
+  
 const Project = () => {
   window.scrollTo(0, 0);
   let { id } = useParams();
@@ -21,6 +24,15 @@ const Project = () => {
       />
     );
   });
+
+  useEffect(() => {
+    $(".popup-img").magnificPopup({
+      type: "image",
+      gallery: {
+        enabled: true,
+      },
+    });
+  }, []);
 
   return (
     <React.Fragment>
