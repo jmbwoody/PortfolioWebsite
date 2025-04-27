@@ -72,7 +72,11 @@ const Navbar = (props) => {
           ) : (
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <Link to={`/#portfolio`}>Portfolio</Link>
+                <Link to={{
+    pathname: "/",
+    search: "",
+    hash: "#portfolio",
+  }}>Portfolio</Link>
               </li>
             </ul>
           )}

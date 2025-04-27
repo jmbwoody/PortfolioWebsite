@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Link, Navigate } from "react-router-dom";
-import { Redirect } from "react-router";
+import { Link, Navigate } from "react-router-dom"; 
 
 import GalleryItem from "../../components/galleryItem";
 import projects from "../../constants/projects";

@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio-website", 
   "version": "1.0.2",
-  "homepage": ".",
+  "homepage": "http://jmbwoody.github.io/PortfolioWebsite",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
