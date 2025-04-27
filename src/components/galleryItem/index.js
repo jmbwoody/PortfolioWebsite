@@ -20,14 +20,16 @@ const GalleryItem = props => {
                   <i className="fas fa-link"></i>
                 </span>
               </div>
-            ) : null}
+            ) : null
+            }
             {props.hasImage ? (
               <a href={props.image} className="popup-img">
                 <span className="icon">
                   <i className="fas fa-search"></i>
                 </span>
               </a>
-            ) : null}
+            ) : null
+            }
           </div>
         </div>
       </div>

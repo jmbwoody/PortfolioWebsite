@@ -41,7 +41,7 @@
 }
 
 .header .caption .social-media span {
-	color: #eee;
+	color: #eee; 
 	background: rgba(117, 117, 117, .1);
 	font-size: 20px;  
 	height: 45px;
@@ -59,11 +59,23 @@
 	cursor: pointer;
 }
 
-#resumeLink span {
-    height: 80px;
-    width: 80px;
-    line-height: 80px;
-    font-size: 40px;
+#resumeLink {
+	color: pink;
+	:hover {
+		color: #fff;
+	}
+	span {
+		height: 80px;
+		width: 80px;
+		line-height: 80px;
+		font-size: 40px;
+		color: #008cff;
+		:hover {
+			color: #fff;
+			background: #7cb342;
+			cursor: pointer;
+		}
+	}
 }
 
 .header .rounded-image {
