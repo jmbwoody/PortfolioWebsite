@@ -2,12 +2,30 @@ import React from "react";
 import urls from '../../constants/urls';
 import meImage from "../../assets/img/coverImageProfile.jpg";
 import './style.css';
+import Typed from 'typed.js';
+
+
 
 const Header = () => {
   const openLinkInNewWindow = (url) => {
     window.open(url, "_blank")
     return
   };
+
+  const el = React.useRef(null);
+
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ['<i>Hello, friend!</i>', '<i>Welcome to My Portfolio Website.</i>', 'Hope you enjoy it!', 'Please see examples of my work below.', 'My name is...'],
+      typeSpeed: 100,
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
+
 
   return (
     <header
@@ -22,7 +40,8 @@ const Header = () => {
               className="img-thumbnail rounded-image"
               src={meImage}
               alt='Brian Woodward'
-            />
+            /><h2>
+              <span ref={el} /></h2>
               <h1>Brian Woodward</h1>
               <h2>Software Engineer III</h2>
               <h2>Specializing in Front-End (React, AngularJS) web application development</h2>

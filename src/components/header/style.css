@@ -73,6 +73,16 @@
     padding: 10px;
 }
 
+.social-media {
+    padding-right: 150px;
+}
+@media screen and (max-width:1169px) {
+	.social-media {
+		padding-right: 0px;
+	}	
+}
+
+
 @media only screen and (min-width:768px) {
 	.rounded-image {
 		float: none;
