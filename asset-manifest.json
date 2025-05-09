@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioWebsite/static/css/main.9f5c34c9.css",
-    "main.js": "/PortfolioWebsite/static/js/main.548ef98d.js",
+    "main.css": "/PortfolioWebsite/static/css/main.65c80b55.css",
+    "main.js": "/PortfolioWebsite/static/js/main.7196564b.js",
     "static/media/brian-portfolio-image.png": "/PortfolioWebsite/static/media/brian-portfolio-image.323d4280a9a58fde2487.png",
     "static/media/coding-rainbow.jpg": "/PortfolioWebsite/static/media/coding-rainbow.0782fc3a6d4ff5adb6a9.jpg",
     "static/media/IMG_4254.jpg": "/PortfolioWebsite/static/media/IMG_4254.a95d43b45a2990467736.jpg",
@@ -155,11 +155,11 @@
     "static/media/roboto-greek-ext-300-normal.woff": "/PortfolioWebsite/static/media/roboto-greek-ext-300-normal.60729cafbded24073dfb.woff",
     "static/media/slick.woff": "/PortfolioWebsite/static/media/slick.295183786cd8a1389865.woff",
     "static/media/AngularJS-Shield.svg": "/PortfolioWebsite/static/media/AngularJS-Shield.3c22decde0193429275835ef54290eea.svg",
-    "main.9f5c34c9.css.map": "/PortfolioWebsite/static/css/main.9f5c34c9.css.map",
-    "main.548ef98d.js.map": "/PortfolioWebsite/static/js/main.548ef98d.js.map"
+    "main.65c80b55.css.map": "/PortfolioWebsite/static/css/main.65c80b55.css.map",
+    "main.7196564b.js.map": "/PortfolioWebsite/static/js/main.7196564b.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f5c34c9.css",
-    "static/js/main.548ef98d.js"
+    "static/css/main.65c80b55.css",
+    "static/js/main.7196564b.js"
   ]
 }
